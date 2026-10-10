@@ -24,7 +24,7 @@ See `evidence/browser-results.json` for the final 13-check result and measured g
 
 The walkthrough exercises all six pages, deliberately incorrect triage and briefing choices, repeated checks, each validation gate, commission drafts, full records/popovers, notebook access, first submission retention, optional correction and resubmission, every earlier read-only page, unchanged URL progress during repeated review, stable request ordering, refresh and copied bookmarks, invalid/duplicate progress links, future-view rejection, independent tabs and browser contexts, reset with a new seed, keyboard navigation/focus/tooltips, 44-pixel touch targets, 390-pixel and desktop layouts, and hosting under `/northstar-erm-mandate/`. It completes the workshop, training/coaching, and unauthorized tracker-substitution routes.
 
-Earlier harness iterations failed on locator assumptions for selected selectboxes, hidden popovers, and citation-remove controls. Those assertions were corrected to inspect visible content and use keyboard citation removal; they did not produce application exceptions. The final report is the acceptance evidence.
+Earlier harness iterations failed on locator assumptions for selected selectboxes, hidden popovers, and citation-remove controls. Those assertions were corrected to inspect visible content and use keyboard citation removal; they did not produce application exceptions. The final report is the acceptance evidence. A pre-publication integrity check also detected native bytecode caches created by compile checks; the build now excludes those generated caches from the static manifest and publication.
 
 ## Publication and limits
 

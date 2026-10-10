@@ -8,7 +8,7 @@
   },
   "browser_walkthrough_checks": 13,
   "build": "passed",
-  "static_integrity_files": 250,
+  "static_integrity_files": 242,
   "packaged_python_files": 8,
   "lint": "Ruff 0.15.0 E9,F63,F7,F82 passed",
   "compile": "passed",

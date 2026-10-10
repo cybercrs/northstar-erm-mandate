@@ -127,7 +127,10 @@ def build(
     manifest["static_sha256"] = {
         str(path.relative_to(output)): hashlib.sha256(path.read_bytes()).hexdigest()
         for path in sorted(output.rglob("*"))
-        if path.is_file() and path.name != "manifest.json"
+        if path.is_file()
+        and path.name != "manifest.json"
+        and "__pycache__" not in path.parts
+        and path.suffix != ".pyc"
     }
     (output / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
     return manifest
