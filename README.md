@@ -46,3 +46,7 @@ The current paper case and instructor activity guide remain the source for the l
 ## Visual approach
 
 The blue `#003087`, red `#CE0037`, and neutral theme retains the prior visual identity without naming an institution. Abstract routing rings in the header suggest linked decisions. The interface uses text labels in addition to color, visible focus, responsive layouts, and reduced-motion support.
+
+## Isolated browser edition
+
+The `browser/stlite-northstar` branch adds a static stlite edition and strict view-only Back/Forward navigation. Its source is isolated from the live `main` deployment; the separate `stlite-preview` branch is intended for static hosting in the same repository. Build, runtime, privacy, review and activation details are in [browser/README.md](browser/README.md).

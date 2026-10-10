@@ -1,0 +1,31 @@
+name: Browser validation
+on:
+  push:
+    branches: ['browser/stlite-northstar']
+  pull_request:
+    paths: ['browser/**', 'tests/test_browser_navigation.py', '.github/workflows/browser-tests.yml']
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # Only the native test harness gets this package. The Wasm build uses
+      # the hash-verified stlite-bundled patched wheel, never server requirements.
+      - run: python -m pip install streamlit==1.57.0 playwright==1.62.0 ruff==0.15.0
+      - run: python -m playwright install --with-deps chromium
+      - run: python -m unittest discover -s tests -v
+      - run: python -m ruff check --select E9,F63,F7,F82 browser tests/test_browser_navigation.py
+      - run: python -m browser.build
+      - run: python -m browser.verify_static
+      - run: python -m browser.test_browser
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: northstar-browser-validation
+          path: browser/test-results

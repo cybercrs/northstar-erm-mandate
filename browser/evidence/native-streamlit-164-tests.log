@@ -1,0 +1,82 @@
+test_all_stages_render (test_app.AppTests.test_all_stages_render) ... 2026-10-10 15:51:43.010 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:51:43.186 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:51:43.257 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:51:43.365 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:51:43.445 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:51:43.530 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_assignment_and_begin (test_app.AppTests.test_assignment_and_begin) ... 2026-10-10 15:51:43.620 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_briefing_does_not_tip_the_delivery_measure (test_app.AppTests.test_briefing_does_not_tip_the_delivery_measure) ... 2026-10-10 15:51:43.718 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_commission_details_and_feedback_gate (test_app.AppTests.test_commission_details_and_feedback_gate) ... 2026-10-10 15:51:43.830 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_feedback_after_submission_not_before (test_app.AppTests.test_feedback_after_submission_not_before) ... 2026-10-10 15:51:43.919 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_interactive_path_through_source_reconciliation (test_app.AppTests.test_interactive_path_through_source_reconciliation) ... 2026-10-10 15:51:44.007 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_invalid_old_progress_resets (test_app.AppTests.test_invalid_old_progress_resets) ... 2026-10-10 15:51:44.389 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_network_result_is_discoverable_but_not_in_earlier_answers (test_app.AppTests.test_network_result_is_discoverable_but_not_in_earlier_answers) ... 2026-10-10 15:51:44.449 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:51:44.527 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_packet_records_are_complete_and_available (test_app.AppTests.test_packet_records_are_complete_and_available) ... 2026-10-10 15:51:44.616 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_reset_is_restorable (test_app.AppTests.test_reset_is_restorable) ... 2026-10-10 15:51:44.691 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:51:44.788 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_revision_requires_new_submission (test_app.AppTests.test_revision_requires_new_submission) ... 2026-10-10 15:51:44.897 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_role_feedback_is_not_delayed_until_the_end (test_app.AppTests.test_role_feedback_is_not_delayed_until_the_end) ... 2026-10-10 15:51:44.988 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_all_review_pages_are_read_only_and_progress_is_exact (test_browser_navigation.BrowserNavigationTests.test_all_review_pages_are_read_only_and_progress_is_exact) ... 2026-10-10 15:51:45.160 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:51:45.277 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:51:45.450 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:51:45.602 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:51:45.729 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_explicit_revision_only_from_feedback_and_refreshable (test_browser_navigation.BrowserNavigationTests.test_explicit_revision_only_from_feedback_and_refreshable) ... 2026-10-10 15:51:45.865 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:51:45.990 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_frontier_arrow_does_not_advance_lesson (test_browser_navigation.BrowserNavigationTests.test_frontier_arrow_does_not_advance_lesson) ... 2026-10-10 15:51:46.148 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_legacy_server_bookmark_is_review_of_earned_progress (test_browser_navigation.BrowserNavigationTests.test_legacy_server_bookmark_is_review_of_earned_progress) ... ok
+test_mutations_rejected_in_review (test_browser_navigation.BrowserNavigationTests.test_mutations_rejected_in_review) ... ok
+test_navigation_never_changes_progress (test_browser_navigation.BrowserNavigationTests.test_navigation_never_changes_progress) ... ok
+test_no_future_results_on_incomplete_or_review_pages (test_browser_navigation.BrowserNavigationTests.test_no_future_results_on_incomplete_or_review_pages) ... 2026-10-10 15:51:46.273 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:51:46.391 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_revision_keeps_first_submission_and_requires_resubmission (test_browser_navigation.BrowserNavigationTests.test_revision_keeps_first_submission_and_requires_resubmission) ... ok
+test_board_sentence_does_not_undo_earlier_ownership (test_engine.BoardLogicTests.test_board_sentence_does_not_undo_earlier_ownership) ... ok
+test_both_advisory_mandates_can_be_defended (test_engine.BoardLogicTests.test_both_advisory_mandates_can_be_defended) ... ok
+test_commission_feedback_marks_resource_and_role_crossings (test_engine.BoardLogicTests.test_commission_feedback_marks_resource_and_role_crossings) ... ok
+test_consequence_debrief_changes_with_decisions (test_engine.BoardLogicTests.test_consequence_debrief_changes_with_decisions) ... ok
+test_continuity_claim_is_scored_separately_from_citations (test_engine.BoardLogicTests.test_continuity_claim_is_scored_separately_from_citations) ... ok
+test_dashboard_headline_is_scored_separately_from_citations (test_engine.BoardLogicTests.test_dashboard_headline_is_scored_separately_from_citations) ... ok
+test_debrief_detects_changed_mandate_even_when_claim_index_is_same (test_engine.BoardLogicTests.test_debrief_detects_changed_mandate_even_when_claim_index_is_same) ... ok
+test_evidence_selection_distinguishes_sufficient_missing_and_extra (test_engine.BoardLogicTests.test_evidence_selection_distinguishes_sufficient_missing_and_extra) ... ok
+test_existing_financial_opinion_is_not_dispatch_assurance (test_engine.BoardLogicTests.test_existing_financial_opinion_is_not_dispatch_assurance) ... ok
+test_future_tracker_approval_does_not_start_work (test_engine.BoardLogicTests.test_future_tracker_approval_does_not_start_work) ... ok
+test_inbox_to_commission_and_packet_source_chain (test_engine.BoardLogicTests.test_inbox_to_commission_and_packet_source_chain) ... ok
+test_management_ownership_conflicts_with_later_assurance_by_subject (test_engine.BoardLogicTests.test_management_ownership_conflicts_with_later_assurance_by_subject) ... ok
+test_relabeling_and_silence_are_both_unhelpful (test_engine.BoardLogicTests.test_relabeling_and_silence_are_both_unhelpful) ... ok
+test_request_order_is_stable_and_complete (test_engine.BoardLogicTests.test_request_order_is_stable_and_complete) ... ok
+test_unauthorized_tracker_displaces_selected_service_and_audit_capacity (test_engine.BoardLogicTests.test_unauthorized_tracker_displaces_selected_service_and_audit_capacity) ... ok
+test_work_claim_depends_on_the_service_actually_delivered (test_engine.BoardLogicTests.test_work_claim_depends_on_the_service_actually_delivered) ... ok
+test_brief_edit_requires_resubmission (test_progress.ProgressTests.test_brief_edit_requires_resubmission) ... ok
+test_checking_role_map_requires_every_answer (test_progress.ProgressTests.test_checking_role_map_requires_every_answer) ... ok
+test_commission_review_required_before_advancing (test_progress.ProgressTests.test_commission_review_required_before_advancing) ... ok
+test_fresh_and_completed_round_trip (test_progress.ProgressTests.test_fresh_and_completed_round_trip) ... ok
+test_no_scores_or_identity_in_snapshot (test_progress.ProgressTests.test_no_scores_or_identity_in_snapshot) ... ok
+test_packet_records_can_be_cited_without_extra_opening_step (test_progress.ProgressTests.test_packet_records_can_be_cited_without_extra_opening_step) ... ok
+test_reject_corrupt_links (test_progress.ProgressTests.test_reject_corrupt_links) ... ok
+test_reject_decompression_bomb_and_duplicate_keys (test_progress.ProgressTests.test_reject_decompression_bomb_and_duplicate_keys) ... ok
+test_reject_skipped_and_fabricated_completion (test_progress.ProgressTests.test_reject_skipped_and_fabricated_completion) ... ok
+test_reject_unknown_fields_and_bad_types (test_progress.ProgressTests.test_reject_unknown_fields_and_bad_types) ... ok
+test_revision_invalidates_later_commit_but_preserves_initial_brief (test_progress.ProgressTests.test_revision_invalidates_later_commit_but_preserves_initial_brief) ... ok
+test_role_order_and_partial_choice_survive_refresh (test_progress.ProgressTests.test_role_order_and_partial_choice_survive_refresh) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 3.488s
+
+OK

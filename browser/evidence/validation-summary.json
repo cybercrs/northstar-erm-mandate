@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-10",
+  "main_baseline": "11d3064dd429c0f2cf4c6a7255c3eaf61cd75dc5",
+  "unit_apptest": {
+    "Streamlit 1.60.0": 48,
+    "Streamlit 1.57.0": 48,
+    "Streamlit 1.64.0": 48
+  },
+  "browser_walkthrough_checks": 13,
+  "build": "passed",
+  "static_integrity_files": 250,
+  "packaged_python_files": 8,
+  "lint": "Ruff 0.15.0 E9,F63,F7,F82 passed",
+  "compile": "passed",
+  "hosted_browser": "not-run: Pages not activated and known cloud proxy restriction",
+  "classroom_capacity": "not-tested",
+  "central_saving": false
+}

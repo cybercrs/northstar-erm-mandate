@@ -1,0 +1,335 @@
+{
+  "transport": "Actual generated static files; external traffic blocked by test proxy",
+  "checks": [
+    {
+      "name": "Actual Wasm runtime and desktop navigation",
+      "status": "passed"
+    },
+    {
+      "name": "Inbox wrong answers, repeats, validation gate",
+      "status": "passed"
+    },
+    {
+      "name": "Read-only review, keyboard, drafts, refresh, bookmarks",
+      "status": "passed"
+    },
+    {
+      "name": "Commission review gate and hidden future work product",
+      "status": "passed"
+    },
+    {
+      "name": "Complete packet records and briefing draft",
+      "status": "passed"
+    },
+    {
+      "name": "Wrong briefing and first submission",
+      "status": "passed"
+    },
+    {
+      "name": "Full read-only review with unchanged progress",
+      "status": "passed"
+    },
+    {
+      "name": "Explicit revision and correct feedback",
+      "status": "passed"
+    },
+    {
+      "name": "Second defensible mandate and unauthorized tracker route",
+      "status": "passed"
+    },
+    {
+      "name": "Independent tabs/contexts and reset",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid links and future views",
+      "status": "passed"
+    },
+    {
+      "name": "Narrow viewport and subdirectory hosting",
+      "status": "passed"
+    },
+    {
+      "name": "No external traffic or execution errors",
+      "status": "passed"
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "external_requests": [],
+  "runtime": {
+    "streamlit": "1.57.0",
+    "python": "3.13.2",
+    "pyodide": "0.29.3",
+    "iframe": true
+  },
+  "initial_render_seconds": 9.46,
+  "navigation_layout": {
+    "desktop": [
+      {
+        "x": 1044,
+        "y": 342.21875,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 1096,
+        "y": 342.21875,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "narrow": [
+      {
+        "x": 278,
+        "y": 330.5625,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 330,
+        "y": 330.5625,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "narrow-feedback": [
+      {
+        "x": 278,
+        "y": 330.5625,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 330,
+        "y": 330.5625,
+        "width": 44,
+        "height": 44
+      }
+    ]
+  },
+  "completed_routes": [
+    {
+      "mandate": 1,
+      "tracker": 1,
+      "first_brief": {
+        "authority": 0,
+        "citations": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        "communication": 0,
+        "continuity": 1,
+        "headline": 1,
+        "mandate": 1,
+        "network_tenths": 977,
+        "ownership": 0,
+        "provider": 0,
+        "scope": 0,
+        "tracker": 1,
+        "work_claim": 0
+      }
+    },
+    {
+      "mandate": 0,
+      "tracker": 2,
+      "first_brief": {
+        "authority": 0,
+        "citations": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        "communication": 0,
+        "continuity": 1,
+        "headline": 1,
+        "mandate": 0,
+        "network_tenths": 977,
+        "ownership": 0,
+        "provider": 0,
+        "scope": 0,
+        "tracker": 2,
+        "work_claim": 0
+      }
+    }
+  ],
+  "static_requests": [
+    "/",
+    "/?progress=a&progress=b&view=5",
+    "/?progress=eJxNUNtqwzAM_Rc9Z1B3a1f8K2UE11FmUV-CLbeM0n-vHIdtGIOlc9GRH3DJhPNY6iUQM06gZ-MLDmBBP8BUdikT_4B-U9IjNkwpFtDnLylTCDWSXXsbI0WmWH8VDs3kKWKvgomTYSl2A0Tke8rXkTGyKx1P94i5OFpWxpLTjSbMHcvJY5u7G5ScfbsSodi0bOacjb02tkhXZ-sNhYY9e1QqRXKO1qHw_i3aoL76WYnlTLnwuH4L6Fi932b_CTlX0RVsb3X4PJ7elTp9SIfNt4TZD3ADfXi-ADC7chU&view=2",
+    "/?progress=eJxdUNFuwyAM_Bc_81Catcv4lWqKKHGGVQIRmFZT1X-fA32aENLZnO_OPOGaCZep1OtKzDiDWWwoqMCBeYKt7FMm_gWjpUVsmVIsYC6Hb6nTutZIrjU7I0WmWNvAQYFHOweK2IrVxtlyxxH5kfJtYozsRe5rPCtIj4i5eNoaZcvpTjNmMIOCnAI2V6XlHPcr_sWlretxtu62cwU3YRcsrWCOr56SSpGIk_MoNNmRc8X3S1_6sqsOorlQLjy1TwETawhv8_-zBXesT5_ncdB6_JAO2x9JI-gO5vT6A9e3ccc&view=3",
+    "/?progress=eJxlkEFuAyEMRe_COl2kVdKWq1TVyGE8xQqYETaJoih3LwyTKFUlFryPzf_21Rwy4TRIOURSxdHYCYLgxjhjrwaK-pRJL8a-bKtGCkqJxdiv74opxsLkFm2tSKzE5dHhEcZAjJ0i8Ai6AqOeUz4OiqxeupbOjFk8zR3nnE40Yu6UU8DmXO9_T40iLs3rv5rBHe89i4MLQLHxrWcmkRp4cB5r4dPE7anvoE03URYdlvUYyyWENcG_PsEGb9v9--fH7nVfBYWfGqban4zd3X4B8bFzmA&view=999",
+    "/?progress=eJxlkN1qAyEQhd_F6xRq26TBVwlhMe5sHaLj4owJJeTdq-smBIp48R3n5xxv6pQRpoHLKaIIjMpMNjBslFPmpmwRnzLKrzJvumooVjARK3M4VkwxFkK3aGtFIkEqzw4PdgxI0ClaGq2sQCDXlM-DAInnrqUrQWaPc8c5pwuOkDvlFKBtft_oej7arSbYpXmdKNm686N6me2Cxdj43t0ic7U6OA-18CVre-rpW64JM8uwfIwyVEJYd__rY2igt9-7_afW-6-qiP2pbur-izLb-x9CUnK4&view=0",
+    "/?progress=eJxlkN1qwzAMhd_F1x20G12LX2WMoDrKLGrLwZJbRum7z46z0TLwhb5j_RzpZk6ZcBqknCKp4mjsBEFwY5yxNwNFfcqk38a-7KpGCkqJxdiPz4opxsLkFm3NSKzE5a_CI4yBGDtF4BF0BUa9pnweFFm9dC1dGbN4mjvOOV1oxNwpp4Btco2fX7UiLs1rX83gzr81ywQXgGLje_dMItXw4DzWxIeN21e_Qdtuoiw6LOcxlksIq4N_dYIN3g-vh7fd9ritgsJXNVOji7H7-w_wuHOK&view=0",
+    "/?progress=eJyNkNFuwyAMRf-FZx5C0yZZfqWaIkrcYTVABE6rqsq_zyGdtmWatgcQxpeL73mIU0Q4d2k6OSSCXrQUJ5DCiPYh9EQ2RKS7aAu-QtKEwSfRHgup5E6WspL1K3eCc5NHk9urNnhCP-WnSgoLuh_QQy6c9r0myDoPdAvx0hF4smz8UtdShJuHmCyOWTLGcMUeYi5iGODj_2UCXvx_MmFc_Shqc3lqs7EZNDou53VKTIlH7IwFln2GXTpr-uOaa8-uZ4yJusxnA0NtYPxEoL4jKL4iKP5A0FS_Iyj_E3Y3P0FtcyZYzupQV02pVLPnG9JvbHaQ4sr7_A5RMKxE&view=5",
+    "/?progress=eJzNUEFuAyEM_IvPHEI2Sbd8JapWhHWKlV1YgUlURfl7DRwq9dRjhUBjMx57_IRLIrxOuVxWYsYZDKeCChyYJ9jCPibiLzBaUsSWKYYM5rz7kDiuawnkWrIzYmAKpRXsFHi080IBW7DaMFvuOCA_YrpNjIG9yL2PJwXxETBlT1ujbCneacYEZlCQ4oKtq9Jy9vVK_-zi1vU4WXerXMFN2C2WVjD7V5-ScpYRJ-dRaD8W60_3fK6qgzqI6pVS5qlt5T-t4G9m26J--8xYsT6-ncZB6_EgGbafInZUcJf39Q0oI6pq&view=5",
+    "/?progress=eJzNUEGOwyAM_IvPHEqz7Wb5SrWKKHGK1QQiMK2qqn9fB_a0px5XCGk8DGOPn3BOhNOQy3khZhzBTHbOqMCBeYIt7GMifoDRQhFbphgymNPuW-q4LCWQq2RTxMAUSv2wU-DRjjMFrMViw2i54YB8j-k6MAb2YvfVHxXEe8CUPa1VsqZ4oxETmE5BijPWrkrL2W9X-mcX1-bHybrrphVcjd1saQGzf7UpKWcZcXAeRSYZORX8fWmhT5trJ54TpcxDXcp_WsB7Ueua_qbMuGF9-Dz2ndb9hzBsL2Im6Abm8PoBsXyqVA&view=4",
+    "/?progress=invalid!&view=999",
+    "/app.json",
+    "/bootstrap-wheels.json",
+    "/favicon.ico",
+    "/northstar-erm-mandate/?progress=eJyNkNFuwyAMRf-FZx5C0yZZfqWaIkrcYTVABE6rqsq_zyGdtmWatgcQxpeL73mIU0Q4d2k6OSSCXrQUJ5DCiPYh9EQ2RKS7aAu-QtKEwSfRHgup5E6WspL1K3eCc5NHk9urNnhCP-WnSgoLuh_QQy6c9r0myDoPdAvx0hF4smz8UtdShJuHmCyOWTLGcMUeYi5iGODj_2UCXvx_MmFc_Shqc3lqs7EZNDou53VKTIlH7IwFln2GXTpr-uOaa8-uZ4yJusxnA0NtYPxEoL4jKL4iKP5A0FS_Iyj_E3Y3P0FtcyZYzupQV02pVLPnG9JvbHaQ4sr7_A5RMKxE&view=5",
+    "/northstar-erm-mandate/app.json",
+    "/northstar-erm-mandate/bootstrap-wheels.json",
+    "/northstar-erm-mandate/pyodide-loader.mjs",
+    "/northstar-erm-mandate/vendor/Button-CtzCBW58-AMXk3Whn.js",
+    "/northstar-erm-mandate/vendor/IFrame-DRaylZUz-CTXRbjvJ.js",
+    "/northstar-erm-mandate/vendor/IFrameUtil-BYTcNZ4E-B8B2FnkH.js",
+    "/northstar-erm-mandate/vendor/InputInstructions-BQBBgzXB-ClQbP4Gu.js",
+    "/northstar-erm-mandate/vendor/Multiselect-C7QmmmLa-F7wgznUV.js",
+    "/northstar-erm-mandate/vendor/NumberInput-zpxbqqaI-CuNSmlmM.js",
+    "/northstar-erm-mandate/vendor/Radio-DpOh-J7A-DvRLieUq.js",
+    "/northstar-erm-mandate/vendor/WidgetLabel-CQfHGtry-udktvHE5.js",
+    "/northstar-erm-mandate/vendor/WidgetLabelHelpIcon-C6IRqJ_I-BBI6AbZ-.js",
+    "/northstar-erm-mandate/vendor/WidgetLabelHelpIconInline-BTmzKeRa-CZ4j9Xyg.js",
+    "/northstar-erm-mandate/vendor/_baseIndexOf-OsCSwRmV-C7GT7Z0T.js",
+    "/northstar-erm-mandate/vendor/assertThisInitialized-C1dAyb4j-jFURGdZo.js",
+    "/northstar-erm-mandate/vendor/assets/1b1a876c211e4f13.wasm",
+    "/northstar-erm-mandate/vendor/assets/512f7db3dabc21be.woff2",
+    "/northstar-erm-mandate/vendor/assets/aec331590fac9222.woff2",
+    "/northstar-erm-mandate/vendor/base-input-Drzzu2Q6-DCOO1-b4.js",
+    "/northstar-erm-mandate/vendor/constants-yZa2TGaZ-D7s59a3V.js",
+    "/northstar-erm-mandate/vendor/iconPosition-Cpqwt3HE-C-jUvRPi.js",
+    "/northstar-erm-mandate/vendor/index-B7jxgHEF-DSFM4mVH.js",
+    "/northstar-erm-mandate/vendor/index-DINISCAW-DhRXH5fW.js",
+    "/northstar-erm-mandate/vendor/index-DZZFubxH-BwjJPHKd.js",
+    "/northstar-erm-mandate/vendor/index-Df-1Z3LJ-BbKzDPIK.js",
+    "/northstar-erm-mandate/vendor/index-Dl4ETd_L-D2oMd1k2.js",
+    "/northstar-erm-mandate/vendor/index-DmoOfsTG-S0rBU7b4.js",
+    "/northstar-erm-mandate/vendor/input-CClPhvPt-C_5WYNdx.js",
+    "/northstar-erm-mandate/vendor/pyodide/altair-6.0.0-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/anyio-4.9.0-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/attrs-25.2.0-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/cachetools-5.5.2-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/cramjam-2.10.0rc1-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/northstar-erm-mandate/vendor/pyodide/fastparquet-2024.11.0-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/northstar-erm-mandate/vendor/pyodide/fsspec-2025.3.2-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/jinja2-3.1.6-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/jsonschema-4.23.0-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/jsonschema_specifications-2024.10.1-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/libopenssl-1.1.1w.zip",
+    "/northstar-erm-mandate/vendor/pyodide/markupsafe-3.0.2-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/northstar-erm-mandate/vendor/pyodide/micropip-0.11.0-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/narwhals-2.15.0-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/numpy-2.2.5-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/northstar-erm-mandate/vendor/pyodide/packaging-24.2-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/pandas-2.3.3-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/northstar-erm-mandate/vendor/pyodide/pillow-11.3.0-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/northstar-erm-mandate/vendor/pyodide/pyodide-lock.json",
+    "/northstar-erm-mandate/vendor/pyodide/pyodide.asm.js",
+    "/northstar-erm-mandate/vendor/pyodide/pyodide.asm.wasm",
+    "/northstar-erm-mandate/vendor/pyodide/pyodide.mjs",
+    "/northstar-erm-mandate/vendor/pyodide/pyodide_http-0.2.2-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/pyrsistent-0.20.0-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/northstar-erm-mandate/vendor/pyodide/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/python_stdlib.zip",
+    "/northstar-erm-mandate/vendor/pyodide/pytz-2025.2-py2.py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/referencing-0.36.2-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/rpds_py-0.30.0-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/northstar-erm-mandate/vendor/pyodide/six-1.17.0-py2.py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/sniffio-1.3.1-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/ssl-1.0.0-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/northstar-erm-mandate/vendor/pyodide/starlette-0.47.2-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/pyodide/typing_extensions-4.15.0-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/python/blinker-1.9.0-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/python/itsdangerous-2.2.0-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/python/protobuf-7.36.2-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/python/python_multipart-0.0.32-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/python/tenacity-9.2.1-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/select-DyvsciAf-DTdJ1yfK.js",
+    "/northstar-erm-mandate/vendor/sprintfjs-pgmg3ABV-CZ4af2dB.js",
+    "/northstar-erm-mandate/vendor/stateful-menu-CW-YE2l8-DNHb-gL3.js",
+    "/northstar-erm-mandate/vendor/stlite.css",
+    "/northstar-erm-mandate/vendor/stlite.js",
+    "/northstar-erm-mandate/vendor/styled-components-BDZ1Vzrp-C65H8d9R.js",
+    "/northstar-erm-mandate/vendor/styled-components-Cxzc3DcQ-DbuOYdSx.js",
+    "/northstar-erm-mandate/vendor/useBasicWidgetState-D3zHnRUK-Dsaz4YO6.js",
+    "/northstar-erm-mandate/vendor/useSelectCommon-CZP9dNty-CyXIYaxb.js",
+    "/northstar-erm-mandate/vendor/wheels/stlite_lib-0.1.0-py3-none-any.whl",
+    "/northstar-erm-mandate/vendor/wheels/streamlit-1.57.0-cp313-none-any.whl",
+    "/pyodide-loader.mjs",
+    "/vendor/Button-CtzCBW58-AMXk3Whn.js",
+    "/vendor/IFrame-DRaylZUz-CTXRbjvJ.js",
+    "/vendor/IFrameUtil-BYTcNZ4E-B8B2FnkH.js",
+    "/vendor/InputInstructions-BQBBgzXB-ClQbP4Gu.js",
+    "/vendor/Multiselect-C7QmmmLa-F7wgznUV.js",
+    "/vendor/NumberInput-zpxbqqaI-CuNSmlmM.js",
+    "/vendor/Radio-DpOh-J7A-DvRLieUq.js",
+    "/vendor/Selectbox-3CDAXdnY-v2urKxiG.js",
+    "/vendor/WidgetLabel-CQfHGtry-udktvHE5.js",
+    "/vendor/WidgetLabelHelpIcon-C6IRqJ_I-BBI6AbZ-.js",
+    "/vendor/WidgetLabelHelpIconInline-BTmzKeRa-CZ4j9Xyg.js",
+    "/vendor/_baseIndexOf-OsCSwRmV-C7GT7Z0T.js",
+    "/vendor/assertThisInitialized-C1dAyb4j-jFURGdZo.js",
+    "/vendor/assets/1b1a876c211e4f13.wasm",
+    "/vendor/assets/512f7db3dabc21be.woff2",
+    "/vendor/assets/aec331590fac9222.woff2",
+    "/vendor/base-input-Drzzu2Q6-DCOO1-b4.js",
+    "/vendor/constants-yZa2TGaZ-D7s59a3V.js",
+    "/vendor/iconPosition-Cpqwt3HE-C-jUvRPi.js",
+    "/vendor/index-B7jxgHEF-DSFM4mVH.js",
+    "/vendor/index-DINISCAW-DhRXH5fW.js",
+    "/vendor/index-DZZFubxH-BwjJPHKd.js",
+    "/vendor/index-Df-1Z3LJ-BbKzDPIK.js",
+    "/vendor/index-Dl4ETd_L-D2oMd1k2.js",
+    "/vendor/index-DmoOfsTG-S0rBU7b4.js",
+    "/vendor/input-CClPhvPt-C_5WYNdx.js",
+    "/vendor/pyodide/altair-6.0.0-py3-none-any.whl",
+    "/vendor/pyodide/anyio-4.9.0-py3-none-any.whl",
+    "/vendor/pyodide/attrs-25.2.0-py3-none-any.whl",
+    "/vendor/pyodide/cachetools-5.5.2-py3-none-any.whl",
+    "/vendor/pyodide/cramjam-2.10.0rc1-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/vendor/pyodide/fastparquet-2024.11.0-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/vendor/pyodide/fsspec-2025.3.2-py3-none-any.whl",
+    "/vendor/pyodide/jinja2-3.1.6-py3-none-any.whl",
+    "/vendor/pyodide/jsonschema-4.23.0-py3-none-any.whl",
+    "/vendor/pyodide/jsonschema_specifications-2024.10.1-py3-none-any.whl",
+    "/vendor/pyodide/libopenssl-1.1.1w.zip",
+    "/vendor/pyodide/markupsafe-3.0.2-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/vendor/pyodide/micropip-0.11.0-py3-none-any.whl",
+    "/vendor/pyodide/narwhals-2.15.0-py3-none-any.whl",
+    "/vendor/pyodide/numpy-2.2.5-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/vendor/pyodide/packaging-24.2-py3-none-any.whl",
+    "/vendor/pyodide/pandas-2.3.3-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/vendor/pyodide/pillow-11.3.0-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/vendor/pyodide/pyodide-lock.json",
+    "/vendor/pyodide/pyodide.asm.js",
+    "/vendor/pyodide/pyodide.asm.wasm",
+    "/vendor/pyodide/pyodide.mjs",
+    "/vendor/pyodide/pyodide_http-0.2.2-py3-none-any.whl",
+    "/vendor/pyodide/pyrsistent-0.20.0-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/vendor/pyodide/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+    "/vendor/pyodide/python_stdlib.zip",
+    "/vendor/pyodide/pytz-2025.2-py2.py3-none-any.whl",
+    "/vendor/pyodide/referencing-0.36.2-py3-none-any.whl",
+    "/vendor/pyodide/rpds_py-0.30.0-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/vendor/pyodide/six-1.17.0-py2.py3-none-any.whl",
+    "/vendor/pyodide/sniffio-1.3.1-py3-none-any.whl",
+    "/vendor/pyodide/ssl-1.0.0-cp313-cp313-pyodide_2025_0_wasm32.whl",
+    "/vendor/pyodide/starlette-0.47.2-py3-none-any.whl",
+    "/vendor/pyodide/typing_extensions-4.15.0-py3-none-any.whl",
+    "/vendor/python/blinker-1.9.0-py3-none-any.whl",
+    "/vendor/python/itsdangerous-2.2.0-py3-none-any.whl",
+    "/vendor/python/protobuf-7.36.2-py3-none-any.whl",
+    "/vendor/python/python_multipart-0.0.32-py3-none-any.whl",
+    "/vendor/python/tenacity-9.2.1-py3-none-any.whl",
+    "/vendor/select-DyvsciAf-DTdJ1yfK.js",
+    "/vendor/sprintfjs-pgmg3ABV-CZ4af2dB.js",
+    "/vendor/stateful-menu-CW-YE2l8-DNHb-gL3.js",
+    "/vendor/stlite.css",
+    "/vendor/stlite.js",
+    "/vendor/styled-components-BDZ1Vzrp-C65H8d9R.js",
+    "/vendor/styled-components-Cxzc3DcQ-DbuOYdSx.js",
+    "/vendor/useBasicWidgetState-D3zHnRUK-Dsaz4YO6.js",
+    "/vendor/useSelectCommon-CZP9dNty-CyXIYaxb.js",
+    "/vendor/wheels/stlite_lib-0.1.0-py3-none-any.whl",
+    "/vendor/wheels/streamlit-1.57.0-cp313-none-any.whl"
+  ]
+}

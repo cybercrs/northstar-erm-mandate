@@ -6,3 +6,6 @@ QA/
 .DS_Store
 INSTRUCTOR_PLAYBOOK.md
 QA_REPORT.md
+
+browser/dist/
+browser/test-results/
