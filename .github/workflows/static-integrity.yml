@@ -1,0 +1,15 @@
+name: Static browser integrity
+on:
+  push:
+    branches: ['stlite-preview']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python verify_static.py --dist .

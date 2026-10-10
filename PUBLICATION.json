@@ -1,0 +1,11 @@
+{
+  "repository": "cybercrs/northstar-erm-mandate",
+  "source_branch": "browser/stlite-northstar",
+  "source_commit": "7b5055f2f4e5c0dc73e797da0c5c8517409b342e",
+  "static_branch": "stlite-preview",
+  "main_baseline": "11d3064dd429c0f2cf4c6a7255c3eaf61cd75dc5",
+  "build_manifest": "manifest.json",
+  "validation": "VALIDATION.md",
+  "pages_activation": "pending: settings required",
+  "date": "2026-10-10"
+}
