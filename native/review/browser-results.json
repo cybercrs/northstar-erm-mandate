@@ -1,0 +1,669 @@
+{
+  "checks": [
+    {
+      "name": "Five fresh-context cold initializations and native request audit",
+      "status": "passed"
+    },
+    {
+      "name": "All three complete routes with wrong answers and repeats",
+      "status": "passed"
+    },
+    {
+      "name": "All reached pages strictly read-only and unchanged progress",
+      "status": "passed"
+    },
+    {
+      "name": "Numeric drafts, rounding, old/native bookmarks and revision",
+      "status": "passed"
+    },
+    {
+      "name": "Independent tabs/contexts and reset",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid progress, numeric drafts and future-view rejection",
+      "status": "passed"
+    },
+    {
+      "name": "Keyboard, touch targets, desktop and narrow layouts",
+      "status": "passed"
+    },
+    {
+      "name": "Final branding and exact Python snapshot validation",
+      "status": "passed"
+    }
+  ],
+  "errors": [],
+  "console_errors": [],
+  "external_requests": [],
+  "measurement_conditions": "Five fresh Chromium contexts, cache disabled via CDP, local loopback HTTP in saved Accounting Teaching Apps cloud environment; wall clock from navigation to ready+saved URL. No hosted-network, school-device or capacity measurement.",
+  "cold_initialization_ms": {
+    "samples": [
+      240.17,
+      130.86,
+      131.43,
+      99.92,
+      107.62
+    ],
+    "median": 130.86,
+    "min": 99.92,
+    "max": 240.17
+  },
+  "navigation_layout": {
+    "desktop": [
+      {
+        "x": 1124,
+        "y": 269.78125,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 1176,
+        "y": 269.78125,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "narrow": [
+      {
+        "x": 278,
+        "y": 241.171875,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 330,
+        "y": 241.171875,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "narrow-feedback": [
+      {
+        "x": 278,
+        "y": 241.171875,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 330,
+        "y": 241.171875,
+        "width": 44,
+        "height": 44
+      }
+    ]
+  },
+  "audited_variants": [
+    {
+      "name": "assignment-route-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "08fe65c75f81b973b94a77ad66738094788a2d863f51e955fea8fcf05ece8416"
+    },
+    {
+      "name": "wrong-inbox-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "0aa1335787575960e08a16b5f989b1e68f50a189128a0692a867a240dbd9f720"
+    },
+    {
+      "name": "commission-draft-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "9cbbacb397c850dba924ede554bc8f1e01347a7caabdd73c4607fdf7972f9cd8"
+    },
+    {
+      "name": "commission-reviewed-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "d01e57c30295bff7ce06a60e74b331a2536a09d55f15056aa74f7423ce84b528"
+    },
+    {
+      "name": "packet-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "365d17081a180575338b98f1908cc03e9e07868626989113c352c977e942affb"
+    },
+    {
+      "name": "brief-draft-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "59ef235fefb67b99dea28c3f712368240edf43f9917def1f3331fde706d10299"
+    },
+    {
+      "name": "wrong-feedback-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "dc5dbae75dee0bcd3511751255e987e3e4c4be291b8b4d30c196abb3f410430a"
+    },
+    {
+      "name": "review-0-4",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "7fa4218426c9582628c421811e78d69b4ca469f04a556694042f20083c743c90"
+    },
+    {
+      "name": "review-0-3",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "512ae952ad816581851c82ad06134178dbf56da39e440359115dab93ff9113c6"
+    },
+    {
+      "name": "review-0-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "013afe0534e2b41e03be71322f346c33cce535f59f263ca199e2c827f47ce554"
+    },
+    {
+      "name": "review-0-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "a967fe1465262694543c456dfce04200013508be843b8eaf07b8f102e93d692e"
+    },
+    {
+      "name": "review-0-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "9c8717dab209152b6a1f06602846a8e8197580862c6605f3ab98bb76ee25cf41"
+    },
+    {
+      "name": "corrected-feedback-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "11945d33c327b3e095cdc73cf2abbeb2cdafb269e9bbe7655a5843adabb03044"
+    },
+    {
+      "name": "assignment-route-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "08fe65c75f81b973b94a77ad66738094788a2d863f51e955fea8fcf05ece8416"
+    },
+    {
+      "name": "wrong-inbox-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "8f965869833567109d5989a1c67ee57dcc6b0c37a8531f29a75751d19c508c06"
+    },
+    {
+      "name": "commission-draft-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "aabd7bbc41f18d43a288f06d52bb6b276c3b0c2d486961cc07fc921858a668bb"
+    },
+    {
+      "name": "commission-reviewed-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "619a8fa5c327a51c61a6a743f1af2a7a159abca3c955395b6b9e884c88b88071"
+    },
+    {
+      "name": "packet-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "19ffd950ef0a430a4f7ef054143082b77a788385101712a8cfa1b89f779a047f"
+    },
+    {
+      "name": "brief-draft-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "046bad58cd101986ee8beeee9e0503d5d0bea12795f896fac3f9e8a6d60d7f87"
+    },
+    {
+      "name": "wrong-feedback-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "e99b38801e0eaf11f3f0e03daf56513493d20a834a69327123b1c3963e91ebcf"
+    },
+    {
+      "name": "review-1-4",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "aba476bc0c297c71dd8fb213d7d997f3cae120659d89ac1caee1516e97e708dd"
+    },
+    {
+      "name": "review-1-3",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "10f443c74e2c1c4193a09872bb738a355f9e6165e95b82f8ac6a296a01d5002a"
+    },
+    {
+      "name": "review-1-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "1a39ef61e5406bd4415c64ec5ac18afc15c1a7aaf55927c78fd75c72ea74aab7"
+    },
+    {
+      "name": "review-1-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "9ad457d6d7a1d35a9e9e6e7e435793c025eb7e8a70062daf779b8dfbe93012d6"
+    },
+    {
+      "name": "review-1-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "9c8717dab209152b6a1f06602846a8e8197580862c6605f3ab98bb76ee25cf41"
+    },
+    {
+      "name": "corrected-feedback-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "37c4796fa1905740135d2c7f4a86729c8dcfdab018b5485fb2ac6accb7dd2b7e"
+    },
+    {
+      "name": "assignment-route-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "08fe65c75f81b973b94a77ad66738094788a2d863f51e955fea8fcf05ece8416"
+    },
+    {
+      "name": "wrong-inbox-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "6999654e196f2d077e5796bb8f2df1f86b7d580bd803d58fd9cec83bc129fd03"
+    },
+    {
+      "name": "commission-draft-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "1ea62aae5c3fb6ea5b753474ef6c378cd9c3ce1dd46160d6e235bc4dd57ce051"
+    },
+    {
+      "name": "commission-reviewed-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "98c575284b296a32f35f8d27559c23887d7eeb1ff324c1e3f7651f82a9362633"
+    },
+    {
+      "name": "packet-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "8c58c2b8e045fd5829fc831cb2a8ae951f05c6520bde779c33acf44103647de6"
+    },
+    {
+      "name": "brief-draft-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "f652815669a897cde7d06a841a16fca8ac39b027f530017a2a3aee2c9aa8658b"
+    },
+    {
+      "name": "wrong-feedback-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "40e454e9b76faa7bb3a79e79ada1d9686245c4fce3f85f39f18076e04a63c01d"
+    },
+    {
+      "name": "review-2-4",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "e4ee7d6d67d73ec629736c48602c36e9c758dc313b2693b446d55ddac4c8cdef"
+    },
+    {
+      "name": "review-2-3",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "34ddeb9bcefc59e8540f66d9f779a00c3300f6aed6baf8404fbb66a77e87b912"
+    },
+    {
+      "name": "review-2-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "d103085f88fda933ada8d8538e5db75694749f305bad1868a42e93fd93fdf5a8"
+    },
+    {
+      "name": "review-2-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "d7e60511e488e2daa2f7bcffc57670ff44f07e21b449ce5401998079d78b45d7"
+    },
+    {
+      "name": "review-2-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "9c8717dab209152b6a1f06602846a8e8197580862c6605f3ab98bb76ee25cf41"
+    },
+    {
+      "name": "corrected-feedback-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "247f8e14693f046af8f10e90ad4aa49fd17078d4f369465a385913821d7f57ca"
+    },
+    {
+      "name": "narrow-inbox",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "4e784a275c1223c0ffafa3acb19bf20c632c0e52aece07c57ebacdfbab2a5999"
+    },
+    {
+      "name": "ownership-provider-0-0-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "eeaa5cccfb19ef6343ecfe15b22332c2695e262d5ebbb281aee966c96cb49bd3"
+    },
+    {
+      "name": "ownership-provider-0-0-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "c682328e305b3f58f2e43fd6c61b86e8a181231e496a5d56644f53e3adbcc762"
+    },
+    {
+      "name": "ownership-provider-0-0-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "4f85e923a7196d175def11320fc79b1232df93653869f570a299d1fcd008c492"
+    },
+    {
+      "name": "ownership-provider-0-0-3",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "8a0fbb043e783c060f46838e5e4ac1eacc1df103c5d70b3befb8cccbc90f10ba"
+    },
+    {
+      "name": "ownership-provider-0-1-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "b514c9514b4ec3a3b42f322b82b12edbf636e2e635cdecb0c1eb576c017c5490"
+    },
+    {
+      "name": "ownership-provider-0-1-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "9b71bb05a9d89f90cae64b72977bf8c084f50c0c805e5c1ebc6ff9984de721a6"
+    },
+    {
+      "name": "ownership-provider-0-1-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "9aec36a7a190f14442f35ddb273622791e4271e184e91fb4807643c4bb25887c"
+    },
+    {
+      "name": "ownership-provider-0-1-3",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "fff527fd27de67a0ec1ea5d8c08dc44e6980a04b6c61c3f8d44b1e8c7009f085"
+    },
+    {
+      "name": "ownership-provider-1-0-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "3ca7993a4111c616d8b2191e1be740c912b287874f26c84cdfa2197a850b9532"
+    },
+    {
+      "name": "ownership-provider-1-0-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "49aab116e431d21513a94dc05084d1261149ab31823a632bddcfa7e4b74f9b53"
+    },
+    {
+      "name": "ownership-provider-1-0-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "67b73409097f984f9abac8b4a645cfef4a857f33379b5fd545af3932a6d651a6"
+    },
+    {
+      "name": "ownership-provider-1-0-3",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "c19a497902ee098c6764d89334b82a049290ad376003ce484d35a041c8f58b6a"
+    },
+    {
+      "name": "ownership-provider-1-1-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "211f5c008d0a48c48625f22ff3d840e109f9ce2d2a63fa5c833c1537e9f96959"
+    },
+    {
+      "name": "ownership-provider-1-1-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "adb26f5a99ff7689c251b5dc53bda0e0181b0c9178fa271625b01912dc2f40c7"
+    },
+    {
+      "name": "ownership-provider-1-1-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "1397c1e6a34f2209f5562d1488397424d5be3a4a6d49fe4a6238fa06f6cebb00"
+    },
+    {
+      "name": "ownership-provider-1-1-3",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "409949b6bb16ff194fd40c449276b4322658fe19bf5f2cdf3e73badcb1e755fb"
+    },
+    {
+      "name": "ownership-provider-2-0-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "d2f46274897a6803461692263cc1ecfcecfa167fcc5fae6df051b657585eeae9"
+    },
+    {
+      "name": "ownership-provider-2-0-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "49aab116e431d21513a94dc05084d1261149ab31823a632bddcfa7e4b74f9b53"
+    },
+    {
+      "name": "ownership-provider-2-0-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "67b73409097f984f9abac8b4a645cfef4a857f33379b5fd545af3932a6d651a6"
+    },
+    {
+      "name": "ownership-provider-2-0-3",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "c19a497902ee098c6764d89334b82a049290ad376003ce484d35a041c8f58b6a"
+    },
+    {
+      "name": "ownership-provider-2-1-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "6132ca1af444514df89f6aa7b2d1449186ca1bfcb9829192594a5fb14573b177"
+    },
+    {
+      "name": "ownership-provider-2-1-1",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "adb26f5a99ff7689c251b5dc53bda0e0181b0c9178fa271625b01912dc2f40c7"
+    },
+    {
+      "name": "ownership-provider-2-1-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "1397c1e6a34f2209f5562d1488397424d5be3a4a6d49fe4a6238fa06f6cebb00"
+    },
+    {
+      "name": "ownership-provider-2-1-3",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "409949b6bb16ff194fd40c449276b4322658fe19bf5f2cdf3e73badcb1e755fb"
+    },
+    {
+      "name": "old-bookmark-route-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "013afe0534e2b41e03be71322f346c33cce535f59f263ca199e2c827f47ce554"
+    },
+    {
+      "name": "old-bookmark-route-0",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "d92f677e0d5645eb2152fd51fb95c52344c05f175bc8c6ee814c5776179e8cbe"
+    },
+    {
+      "name": "old-bookmark-route-2",
+      "title": "Northstar Cold Chain | The ERM Mandate",
+      "body_sha256": "d103085f88fda933ada8d8538e5db75694749f305bad1868a42e93fd93fdf5a8"
+    }
+  ],
+  "native_bookmark_states": [
+    {
+      "brief_submitted": true,
+      "c": {
+        "authority": 0,
+        "citations": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        "communication": 0,
+        "continuity": 1,
+        "headline": 1,
+        "mandate": 0,
+        "network_tenths": 977,
+        "ownership": 0,
+        "provider": 0,
+        "roles": [
+          0,
+          1,
+          1,
+          2,
+          1,
+          2
+        ],
+        "scope": 0,
+        "tracker": 0,
+        "work_claim": 0
+      },
+      "commission_checked": true,
+      "committed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "first_brief": {
+        "authority": 1,
+        "citations": [
+          0
+        ],
+        "communication": 1,
+        "continuity": 0,
+        "headline": 0,
+        "mandate": 0,
+        "network_tenths": 986,
+        "ownership": 0,
+        "provider": 3,
+        "scope": 0,
+        "tracker": 0,
+        "work_claim": 2
+      },
+      "roles_checked": true,
+      "seed": 2140358732,
+      "stage": 5,
+      "v": 5
+    },
+    {
+      "brief_submitted": true,
+      "c": {
+        "authority": 0,
+        "citations": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        "communication": 0,
+        "continuity": 1,
+        "headline": 1,
+        "mandate": 1,
+        "network_tenths": 977,
+        "ownership": 0,
+        "provider": 0,
+        "roles": [
+          0,
+          1,
+          1,
+          2,
+          1,
+          2
+        ],
+        "scope": 0,
+        "tracker": 1,
+        "work_claim": 0
+      },
+      "commission_checked": true,
+      "committed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "first_brief": {
+        "authority": 1,
+        "citations": [
+          0
+        ],
+        "communication": 1,
+        "continuity": 0,
+        "headline": 0,
+        "mandate": 1,
+        "network_tenths": 986,
+        "ownership": 0,
+        "provider": 3,
+        "scope": 0,
+        "tracker": 1,
+        "work_claim": 2
+      },
+      "roles_checked": true,
+      "seed": 1253705017,
+      "stage": 5,
+      "v": 5
+    },
+    {
+      "brief_submitted": true,
+      "c": {
+        "authority": 0,
+        "citations": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        "communication": 0,
+        "continuity": 1,
+        "headline": 1,
+        "mandate": 0,
+        "network_tenths": 977,
+        "ownership": 0,
+        "provider": 0,
+        "roles": [
+          0,
+          1,
+          1,
+          2,
+          1,
+          2
+        ],
+        "scope": 0,
+        "tracker": 2,
+        "work_claim": 0
+      },
+      "commission_checked": true,
+      "committed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "first_brief": {
+        "authority": 1,
+        "citations": [
+          0
+        ],
+        "communication": 1,
+        "continuity": 0,
+        "headline": 0,
+        "mandate": 0,
+        "network_tenths": 986,
+        "ownership": 0,
+        "provider": 3,
+        "scope": 0,
+        "tracker": 2,
+        "work_claim": 2
+      },
+      "roles_checked": true,
+      "seed": 1281771572,
+      "stage": 5,
+      "v": 5
+    }
+  ],
+  "static_requests": [
+    "/favicon.ico",
+    "/northstar-erm-mandate/js/",
+    "/northstar-erm-mandate/js/?progress=a&progress=b&view=5",
+    "/northstar-erm-mandate/js/?progress=eJxNUFuKwzAMvIu-sxBnCQVfpSzBdZS1qB_BlltK6d1XTkK7GIFmRo-Rn3DJhMtU6iUQM86gF-MLdmBBP8FUdikTP0B_KeGIDVOKBfT5R2AKoUayG3dUpMgU67vDoZk9RdxRMHE2LEDyiHxP-ToxRnZl19M9Yi6OVtB9B2tON5ox71pOHtvevlPyhhZiodi0HsM5G3tt1ZJvk603FJr22q1SKeJzsg6l7t-hTdpPPysZuVAuPG3fAjpW74_dn0bOVfoKtlwN4_epH3t1EobNr5gZOriBHl9_MPhyCg&view=2",
+    "/northstar-erm-mandate/js/?progress=eJxNUNFqwzAM_Bc_Z5CkLR3-lTKC6yi1qC0HW24Zpf8-OQ7bMAJJdyed_FLXhLBMuVwDMsOs9GJ8hk5ZpV_KFHYxIX8r_TFID9kwRspKX76kjCEUQrv1dkYkRiq_Cgdm9kjQqmBoNixF3ykCfsZ0nxiIXW54fBKk7HDdGGuKD5whNSxFD3Vv3w3yxhpiIdu47sM5GXuvbJFuk603GCr2blYxZ_E5WQfC-3dohdrpl0FGLpgyT9u3KE3F-333n5BTEV2Gmo_DsT-cPs-HUTpsbmJGsofSp_cPL9RyDA&view=2",
+    "/northstar-erm-mandate/js/?progress=eJxNUO1qwzAMfBf9zqAOlAy_ShnBdZRZ1B_BkltK6bvPdsI2jMGnO-lOfsE1E64zl2sgEVxAr8YzDmBBv8AUcSmTPEF_qFojMUIpMujLV4UphBLJ9tqhSFEolt8Oh2bxFHFHwcTFSAWnASLKI-XbLBjF8c6nR8TMjrau2HK604J553Ly2HxPg6pnbLdGYJu2Y7hkY29NPQ7QJ1tvKDTuvUcl5ppztg6r7t-ijdpXv6g6cqXMMvdvAR2L94f3X6PkUvsY21uNn2qa1HmqrizmG7v_HfT5_QMxeHIU&view=2",
+    "/northstar-erm-mandate/js/?progress=eJxdUMuOwyAM_BefOeSx2e7yK9UqosRZrPKIwLSqqv77OqSnFbKEh_HMmCdcMuE6l3oJxIwL6NX4ggos6CeYyi5l4gfoXiBiw5RiAX3ufqRPIdRItoEHI0WmWNtAp8ChWTxFbE0wcTGMjReR7ylfZ8bITuS-vz4VpHvEXBxtjb7ldKMFM-hRQU4em6vq5Qx7iX-xaTu0ORt73bmi3YStNxRAD68jJZUiEWfrUGiyI-eK75dj6fOuOormSrnw3D4FdKzev83_zxbc7_0wjadu6vqTIGx-Jc2Hghvo6fUH1_dxvA&view=3",
+    "/northstar-erm-mandate/js/?progress=eJxdUMuOwyAM_BefOeTRbrv8SrWKKHEWqwQiMK1WVf-9DvS0QkhjM54Z84RrIlymXK4rMeMMejE-owIL-gmmsIuJ-A90Ly1iwxRDBn3pfqSO61oC2dpsjBiYQqkDnQKHZvYUsBarCbPhhgPyI6bbxBjYidz3-UtBfARM2dFWKVuKd5oxgR4VpOixuqpezrBf8c82bk2Pk7G3nSu4CltvaAU9vFpKylkiTtah0GRHTgU_L23py646iuZCKfNUPwV0KN5_zP_PZtzx0B-68Xg-jYN02PxKmoOCO-jj6w3W0HG-&view=3",
+    "/northstar-erm-mandate/js/?progress=eJxdUNFqwzAM_Bc9Z5C0CwX_ShnBdZRZ1JGDLbeM0n-fHIc9DCPQ6aTTyS-4JcJlyuW2kgjOYBYbMnbgwLzAFvExkfyA-Ri0RmKFImcw1y-FcV0Lk9trR0dkIS5_Ex7tHIixodXybEWB5ozyjOk-CbL43Pj4ZEzZ0wam72BL8UEzpsalGLDu7btB36mGWsguboe4JOvutVvzXdkFS2vl3s0q5aw-J-dR-_RQSQUPpl1-rbpnVV0oZZn2nwHDJYRj_f_ZjDUfTuP50o_9cNGK2G_189nBA8z4_gVignJ-&view=4&draft=OTcu",
+    "/northstar-erm-mandate/js/?progress=eJxdUNFuwyAM_Bc_81DSden4lWqKKHGGVQIRmFZT1X-fA32aEJLPnO_OPOGaCZep1OtKzDiDWWwoqMCBeYKt7FMm_gWjpUVsmVIsYC6Hb8FpXWsk15qdkSJTrG3goMCjnQNFbGC1cbbc64j8SPk2MUb2Ivd1_lSQHhFz8bQ1ypbTnWbMYI4KcgrYXJWWM-xX_ItLW9fjbN1t5w4KmrALllaBr56SSpGIk_MoNNmRc8X3S1_6sqseRXOhXHhqnwIm1hDe5v9nC-61Hs56HPVpFN_C9kfSfCi4gzm9_gDYeHHG&view=3",
+    "/northstar-erm-mandate/js/?progress=eJxdUNtqwzAM_Rc9Z5BLy4Z_pYzgOsos6kuw5ZZS-u-T47CHYQyWzkVHfsE1Ea5zLldPzLiAWrXL2IEB9QJd2MZE_AT1MUiPWDPFkEFdvqWM3pdAZu8djBiYQvlTWNSLo4Ct8josmqXoOwjIj5huM2NgmxseHwFTtrTtjC3FOy2YGpaiwzq37wY5Y70SIZu4HeactLlVtkh3Z-M0-Yq9W1TKWXLOxqLwZFFOBQ-kbX6pvpO4rpQyz_vPgArFuWP8f23G-h6HUz-dvz6nUTqsfyTPqYM7qPP7F2FYcoA&view=4&draft=OTcu",
+    "/northstar-erm-mandate/js/?progress=eJxdUO1qwzAMfBf9zqDOVjL8KmUE11EWUX8ES24Zpe8-OQn7MYzBpzudTn7CtRDOI9drJBGcwM4uMHbgwT7BVVlyIfkB-2a0RuKEcmKwly-FOcaayG-1Q5GTUKp_HQu6KVDCHUWXJicKTh0klEcut1EwycI7nx8JCy-0boq15DtNWHau5IBt7qkzevp2NQL7vB7mUpy_NXXfwebsg6PYuNcelZg15-gXVJ0uKqXiweybX5rvu7rOVFjG7WfAphrCMf5_L2N7m_7TDIM5DzqYxX1rno8O7mDPr19jAnKI&view=4&draft=OTcu",
+    "/northstar-erm-mandate/js/?progress=eJxlkE1qAzEMhe-idQoptBtfJZTB8WhqEVseJDkhhNy99nhaWgpe6HvWz5MecBbCZdJ6zmSGM7jFJ8UDBHAP8NViEbI7uJfXppF5o8IK7vTRsORcmcKm7RmFjbj-VET0cyLGQdnz7G0HRrsVuUyGbFGHVm6MopHWgauUK80og6Qk7JNb_Pc1KxrKuvc18eHyXbNNCMlT7vwcnkm1GZ5CxJb4a-P-NW7Qt1tI1KbtPOC4prQ7-Fen2OGtBeY_m4njAa7g3p9fZEhx7A&view=5",
+    "/northstar-erm-mandate/js/?progress=eJxlkE1qAzEMhe-idbIoJBtfpZRB8WhqEVseLDkhhNy99nhaWgpe6HvWz5OecClMy6T1ktiMZnALRqUDeHBPwGohF7YHuONb09jQOIuCe_9omFOqwn7T9owsxlJ_KgLhHFloUEKZ0XYQsnsu18lILOjQ8l2oaOB14FryjWcqg0qO1Ce3-O9rVtTnde9rBf31u2ab4CNy6vwanlm1GZ58oJb4a-P-NW7Qt1u4qE3becBJjXF38K9OqcOpBYafzUQbewN3fn0BZFBx7Q&view=999",
+    "/northstar-erm-mandate/js/?progress=eJxlkN1uwyAMhd_F152UaD_qeJVpiihxhlUwETatpqrvPgjZtGkSF3wHH3zsG5wy4TJJOUVSxRnMYoPgARyYG9iiPmXSTzAPY9VIrVJiAfP2XjHFWJjcpu0ViZW4_Dg82jkQY6doeba6A6NeUz5PiqxeupaujFk8rR3XnC40Y-6UU8DWud7_nhpFXFr3fzVbd_72bB1csBQb33tmEqmBJ-exFv6auD31HbTpFsqi07YeMFxC2BP88wk2GB-H16fh-DIeq6L2o6YZDnAB83z_AmMkc8A&view=0",
+    "/northstar-erm-mandate/js/?progress=eJyNkNFuwyAMRf_FzzyEdC1dfqWaIkrcxmoCETitqir_Poes2pZp2h5AgK8vvucBx0h4qtN47IkZG6g4jqjAQfUAO3IbIvEdqkKeiC1T8AmqQ6G0KtVG7ZR5k0ro-9GTy-VFGzyTH3OrVtCibTrymC-99Y1lzDqPfAvxUjN6bsX41RgF4eYxppaGLBliuFKDMV9i6PD5_zyBLPk_uTAsfhytu8zaUkE2dp2lXkrTMiWlJCPWrkWRfYadK0v6w5LrRVxPFBPXmc8Khl7B-IlAf0dQfEVQ_IFgv_sdweY_YcvpA9Q6Z8L5rMu9NkZvjbQltmcx2yq4yj69A1PbrEU&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUE1rwzAM_S8669A03cL8V8oIrqPWorEdbLlllP73KQ5lsNOOO9jo4-npPT3glJnOY6mnwCI0gZFcCcGBeYCt4lNm-QKz0xKLFU6xgDnusMM99viOw6d2Ugg1smvtDZuicKxttEPwZKeZI7Uk2DhZoYaLJPeUr6NQFK_EH8OAkO6RcvG8NMiS040nymB6hJxmeu1fFejT_cWlZeOWbN11xepgI3az5aDpc1PJpajE0XlS2I_ZtbO5P26-Dsp65lxkbPf5n8f4m-12st-OC61xt-8PGou9KM0bwk3_5zf-Yazk&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUE1rwzAM_S8669Ck3cL8V8oIrqPWookdbLlllP73KTZlsNOOO9jo4-lJ7z3glJjOYy6nhUVoAiOpEIID8wBbxMfE8gVmpyUWKxxDBnPcYYc97vEdh0_txGUpgV1tN2wMwqHU0Q7Bk51mDlSTxYbJClVcILnHdB2Fgngl_hgGhHgPlLLnFUyPsKZ444lSnU1xptf-7QJ9uj-7uDY-SdZdN6zGldjNlhdNn-1KzllPHJ0nhf2I3TpN_bHpOijrmVOWsfrzP834m-xq2W_Fmba46_cHjcVelOYN4ab_8xv9AKzi&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUE1rwzAM_S8669Ck3cL8V8oIrqPWookdbLlllP73KTZlsNOOO9jo4-npPT3glJjOYy6nhUVoAiOpEIID8wBbxMfE8gVmpyUWKxxDBnPcYYc97vEdh0_txGUpgV1tN2wMwqHU0Q7Bk51mDlSTxYbJClVcILnHdB2Fgngl_hgGhHgPlLLnFUyPsKZ444lSnU1xptf-TYE-3Z9dXBu3JOuuG1a5K7GbLS-aPptKzlkljs6Twn7Mbp3m_th8HZT1zCnLWO_zP4_xN9v1ZL8dZ9rirt8fNBZ7UZo3hJv-z2_-lazk&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUE1rwzAM_S8669Ck3cL8V8oIrqPWookdbLlllP73KTZlsNOOO9jo4-npPT3glJjOYy6nhUVoAiOpEIID8wBbxMfE8gVmpyUWKxxDBnPcYYc97vEdh0_txGUpgV1tN2wMwqHU0Q7Bk51mDlSTxYbJClVcILnHdB2Fgngl_hgGhHgPlLLntULWFG88UQLTI6Q402v_pkCf7s8uro1bknXXDauDldjNlhdNn00l56wSR-dJYT9mt05zf2y-Dsp65pRlrPf5n8f4m-16st-OM21x1-8PGou9KM0bwk3_5zf8oqzi&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUEGOwjAM_IvPOVBgt6JfQasqpGZj0SSV44BWiL-vm2iFxInjHhJ54snYM3c4MeF5zOUUSAQnGIQLGnAw3MEW8YlJfmDY6BOJFUoxw3DcmM5szc58mv5LOymEEsnVduOmKBRL_doZ8GinmSJWEGycrGDlRZRb4ssoGMWr8KHvDaRbRM6elkpfOF1pQq6A04x_89cN9Oj87NLS9IStu6xcrauwmy0FhY-2JeWsK47Oo9KeZtdOc39svvaqeibOMtZ8_mcY79mukb06zrjW3Xa311rst8p8GLjq_fgF-yes4A&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUEGOwjAM_IvPOVBgt6JfQasqpGZj0SSV44BWiL-vm2iFxInjHhLZmcnYM3c4MeF5zOUUSAQnGIQLGnAw3MEW8YlJfmDY6BOJFUoxw3DcmM5szc58mv5LkRRCieQq3LgpCsVSv3YGPNpppoi1CTZOVrDyIsot8WUUjOJV-ND3BtItImdPS6UvnK40IdeG04x_89cN9Oj87NLStIWtu6xc1a7CbrYUtH20LSlnXXF0HpX2NLsizf2x-dqr6pk4y1jz-Z9hvGe7RvbqOONad9vdXmux3yrzYeCq9-MX_Lys4g&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_RefOTRpt2j5lWqKKHGL1QCRMa2mqv8-B1RN2mnHHUA27_H8nh9wYsLzlMspkAjOMAoXNOBgfIAt4hOTfMG40ycSK5RihvG4M53pzd68m-FTkRRCieQq3LgpCsVSv3YGPNp5oYi1CTbOVrDyIso98XUSjOJV-GMYDKR7RM6e1kpZOd1oRq4NpwVf8zcHenR-dmltesLWXTdub6AKu8VSUOjZXFLOanFyHpX2E3ZDWvpjy3VQ1TNxlqnu538u42-x68p-J8641V2_P2gt9qIybwZuej-_AfqJrOA&view=2",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_RefOTRpu2j8SjVFlLjDaoDImFZT1X-fQzZN2mnHHUA27_H8nh9wZsLLWOo5kghOYIUrGvBgH-CqhMwkH2B3-kTihHIqYE8705ne7M2LGd4UyTHWRL7BGzcnoVTb185AQDfNlLA10aXJCTZeQrlnvo6CSYIKvw6DgXxPyCXQArY3sHC-0YTc-Jxn_J6_OtCj84vPy6Yn7Pz1i9uE_ewoavvcXFIpanH0AZX2E3ZFtvSnLddBVS_ERca2n_-5jL_Fbiv7nbjgWnf9_qC1uHeVORq46f38BPtBrOA&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_RefOTRpu2j8SjVFlLjDaoDImFZT1X-fQzZN2mnHHUA27_H8nh9wZsLLWOo5kghOYIUrGvBgH-CqhMwkH2B3-kTihHIqYE8705ne7M2LGd4UyTHWRL7BGzcnoVTb185AQDfNlLA10aXJCTZeQrlnvo6CSYIKvw6DgXxPyCXQArY3sHC-0YTc-Jxn_J6_OtCj84vPy6Yt7Pz1i9uE_ewoavvcXFIpanH0AZX2E3ZFtvSnLddBVS_ERca2n_-5jL_Fbiv7nbjgWnf9_qC1uHeVORq46f38BPzWrOI&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_RefOZR0XTp-pZoiSpxhNYEITKuq6r_PgZ562nFClvzM87OfH3BOhNOQy3khZhzBTHbOqMCBeYAt7GMivoPRUiK2TDFkMKfdt-C4LCWQq8XGiIEplNqwU-DRjjMFrGCxYbTc8oB8i-kyMAb2Ivd1_FQQbwFT9rRWyprilUZMYPYKUpyxTlVaXreFzM8urk2Pk3WXjdspqMJutrQIfLYtKWdZcXAehSYeORV8_TTTp011L5oTpcxDPcp_OsDfrNYzvbvMuOW6O-q-14de2jLbHxH7UHAFc3j-ArQjqlU&view=4",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_ReffWiSbtH4lWqKKHGH1QQiMK2mqv8-BzRN2mnHHUA27_H8nh9wTkyXKZfzyiI0g5FUCMGBeYAt4mNi-QRz0CcWKxxDBnM6YIc9DviK47sicV1LYFfhxo1BOJT6tUPwZOeFA9VmtWG2QpUXSO4xXSehIF6F38YRId4Dpex5A9MjbCneeKYEZkBIcaHv-bsDPTo_u7g1bUnWXXeualdht1hetX02l5yzWpycJ6X9hN2Rlv7Uch1V9cIpy1T38z-X8bfYdWW_E2fa664fjlqL_VCZF4Sb3s8vAiKs6A&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_ReffWiSbtH4lWqKKHGH1QQiMK2mqv8-BzRN2mnHHUDPvMeznx9wTkyXKZfzyiI0g5FUCMGBeYAt4mNi-QRz0CcWKxxDBnM6YIc9DviK47sycV1LYFfppo1BOJT6tUPwZOeFA9VitWG2QlUXSO4xXSehIF6N38YRId4Dpex5A9MjbCneeKYEZkBIcaHv_vsEerR_dnFrfpKsu-5axdXYLZZXLZ9tSs5ZR5ycJ5X9hN2Zlv7Uch3V9cIpy1T38z-X8bfYdWW_E2facdcPR8ViP9TmBeGm9_MLAI2s5g&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_ReffWiabtH4lWqKKHGL1QARmFZT1X-fQ1RN2mnHHUA27_H8nh9wykznsdRTYBGawEiuhODAPMBW8SmzfIHZ6ROLFU6xgDnusMM99viOw6ciKYQa2TV446YoHGv72iF4stPMkVoTbJysUONFknvK11Eoilfhj2FASPdIuXheGn3J6cYTZTA9Qk4zveavDvTo_OLSsmlLtu66clW7CbvZctD2ubnkUtTi6Dwp7Sfsimzpj1uug6qeORcZ237-5zL-Frut7HfiQmvd7fuD1mIvKvOGcNP7-Q0ASazm&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_ReffWiabtH4lWqKKHGL1QARmFZT1X-fQ1RN2mnHHUA2fjy_9x5wykznsdRTYBGawEiuhODAPMBW8SmzfIHZ6ROLFU6xgDnusMM99viOw6dOUgg1smvjDZuicKzta4fgyU4zR2pNsHGyQg0XSe4pX0ehKF6JP4YBId0j5eJ5aZAlpxtPlMH0CDnN9Nq_KtCj-4tLy8Yn2brritW6EbvZctD2uankUlTi6Dwp7MfsOtncHzdfB2U9cy4ytnz-Zxh_s90i--240Fp3-_6gtdiL0rwh3PR-fgP8zKzi&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_ReffWiabtH4lWqKKHGL1QARmFZT1X-fQ1RN2mnHHUA2fjy_9x5wykznsdRTYBGawEiuhODAPMBW8SmzfIHZ6ROLFU6xgDnusMM99viOw6dOUgg1smvjDZuicKzta4fgyU4zR2pNsHGyQg0XSe4pX0ehKF6JP4YBId0j5eJ5afAlpxtPlMH0CDnN9Nq_KtCj-4tLy8Yn2brritW6EbvZctD2uankUlTi6Dwp7MfsOtncHzdfB2U9cy4ytnz-Zxh_s90i--240Fp3-_6gtdiL0rwh3PR-fgP-pazk&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_ReffWjSbtH4lWqKKHGL1QQiMK2mqv8-B1RN2mnHHUA27_H8nh9wSkznMZfTwiI0gZFUCMGBeYAt4mNi-QKz0ycWKxxDBnPcYYc97vEdh09F4rKUwK7CjRuDcCj1a4fgyU4zB6rNYsNkhSovkNxjuo5CQbwKfwwDQrwHStnzWulrijeeKIHpEVKc6TV_c6BH52cX16YtybrrxlXtKuxmy4u2z-aSc1aLo_OktJ-wG9LSH1uug6qeOWUZ637-5zL-Fruu7HfiTFvd9fuD1mIvKvOGcNP7-Q3-e6zk&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_ReffWjSbtH4lWqKKHGL1QQiMK2mqv8-B1RN2mnHHUA27_Hs9x5wSkznMZfTwiI0gZFUCMGBeYAt4mNi-QKz0ycWKxxDBnPcYYc97vEdh09F4rKUwK7CjRuDcCj1a4fgyU4zB6rNYsNkhSovkNxjuo5CQbwKfwwDQrwHStnzCqZHWFO88USpNinO9Jq_baBH52cX16YtybrrxlXtKuxmy4u2z7Yl56wrjs6T0n7Mbkhzf2y-Dqp65pRlrPn8zzD-ZrtG9ttxpq3u-v1Ba7EXlXlDuOn9_AYAY6zm&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_ReffWjSbtH4lWqKKHGL1QQiMK2mqv8-B1RN2mnHHUA2fjy_9x5wSkznMZfTwiI0gZFUCMGBeYAt4mNi-QKz0ycWKxxDBnPcYYc97vEdh0-dxGUpgV0dN2wMwqHUrx2CJzvNHKg2iw2TFaq4QHKP6ToKBfFK_DEMCPEeKGXPa4WsKd54ogSmR0hxptf-TYEe3Z9dXBufJOuuG1brSuxmy4u2z6aSc1aJo_OksB-z26S5PzZfB2U9c8oy1nz-Zxh_s10j--0401Z3_f6gtdiL0rwh3PR-fgP7Dazg&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_ReffWjSbtH4lWqKKHGL1QQiMK2mqv8-B1RN2mnHHUA2fjy_9x5wSkznMZfTwiI0gZFUCMGBeYAt4mNi-QKz0ycWKxxDBnPcYYc97vEdh0-dxGUpgV0dN2wMwqHUrx2CJzvNHKg2iw2TFaq4QHKP6ToKBfFK_DEMCPEeKGXPa4WvKd54ogSmR0hxptf-TYEe3Z9dXBufJOuuG1brSuxmy4u2z6aSc1aJo_OksB-z26S5PzZfB2U9c8oy1nz-Zxh_s10j--0401Z3_f6gtdiL0rwh3PR-fgP85qzi&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMFuwyAM_ReffWjSbtH4lWqKKHGL1QQiMK2mqv8-B1RN2mnHHUB--PHs9x5wSkznMZfTwiI0gZFUCMGBeYAt4mNi-QKz0ycWKxxDBnPcYYc97vEdh0_txGUpgV1tN24MwqHUrx2CJzvNHKiCxYbJClVeILnHdB2FgngV_hgGhHgPlLLnFUyPsKZ444lSBSnO9Jq_baBH52cX16YnybrrxtW6CrvZ8qLw2bbknHXF0XlS2o_ZrdPcH5uvg6qeOWUZaz7_M4y_2a6R_Xacaau7fn_QWuxFZd4Qbno_vwH-v6zk&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMtuAyEM_BefOWTz6Kr7K1G1IqxTrCywMiZRFeXf44VUlXrqsQeQhzHjGd_hxITnMZdTIBGcYBAuaMDBcAdbxCcm-YJho08kVijFDMNxYzqzNTvzZvoPZVIIJZKrdOtNUSiW-rUz4NFOM0WsINg4WWl1RLklvoyCUbwKv_e9gXSLyNnTUqUWTleakCvgNOP3_NWBHp2fXVqw8sLWXV69VdjNloLCR3NJOavF0XnUtp-wK9PSH1uuvaqeibOMdT__cxl_i11X9jtxxrXutru91mI_VeZg4Kr34wn5rqze&view=2",
+    "/northstar-erm-mandate/js/?progress=eJzNUMtuAyEM_BefOWTz6Kr7K1G1IqxTrCywMiZRFeXf44VUlXrqsQeQzQxjz9zhxITnMZdTIBGcYBAuaMDBcAdbxCcm-YJho08kVijFDMNxYzqzNTvzZvoPRVIIJZKrcOOmKBRL_doZ8GinmSLWJtg4WcHKiyi3xJdRMIpX4fe-N5BuETl7Wipl4XSlCbk2nGb8nr9uoEfnZ5eWpi1s3eXFrcJuthS0fbQtKWddcXQelfZjdkWa-2PztVfVM3GWsebzP8P4m-0a2W_HGde62-72Wov9VJmDgavejyf5JKze&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMtuAyEM_BefOWTz6Kr7K1G1IqxTrCywMiZRFeXf44VUlXrqsQeQzQxjz9zhxITnMZdTIBGcYBAuaMDBcAdbxCcm-YJho08kVijFDMNxYzqzNTvzZvoPRVIIJZKrcOOmKBRL_doZ8GinmSLWJtg4WcHKiyi3xJdRMIpX4fe-N5BuETl7Wipl4XSlCbk2nGb8nr9uoEfnZ5eWpids3eXFrcJuthS0fbQtKWddcXQelfZjdkWa-2PztVfVM3GWsebzP8P4m-0a2W_HGde62-72Wov9VJmDgavejyf3j6zc&view=2",
+    "/northstar-erm-mandate/js/?progress=eJzNUMtuAyEM_BefOWTz6Kr7K1G1IqxTrCywMiZRFeXf44VUlXrqsQeQzQxjz9zhxITnMZdTIBGcYBAuaMDBcAdbxCcm-YJho08kVijFDMNxYzqzNTvzZvoPRVIIJZKrcOOmKBRL_doZ8GinmSLWJtg4WcHKiyi3xJdRMIpX4fe-N5BuETl7Wipl4XSlCbk2nGb8nr9uoEfnZ5eWpids3eXFrcJuthS0fbQtKWddcXQelfZjdkWa-2PztVfVM3GWsebzP8P4m-0a2W_HGde62-72Wov9VJmDgavejyf3j6zc&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMtuAyEM_BefOWTz6Kr7K1G1IqxTrCywMiZRFeXf44VUlXrqsQeQzQzjGd_hxITnMZdTIBGcYBAuaMDBcAdbxCcm-YJho08kVijFDMNxYzqzNTvzZvoPRVIIJZKrcOOmKBRL_doZ8GinmSLWJtg4WcHKiyi3xJdRMIpX4fe-N5BuETl7Wip94XSlCbnyOc34PX91oEfnZ5eWpi1s3eXFrcJuthS0fTSXlLNaHJ1Hpf2EXZGW_thy7VX1TJxlrPv5n8v4W-y6st-JM651t93ttRb7qTIHA1e9H0_6_azg&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMtuAyEM_BefOWTz6Kr7K1G1IqxTrCywMiZRFeXf44VUlXrqsQeQzQzjGd_hxITnMZdTIBGcYBAuaMDBcAdbxCcm-YJho08kVijFDMNxYzqzNTvzZvoPRVIIJZKrcOOmKBRL_doZ8GinmSLWJtg4WcHKiyi3xJdRMIpX4fe-N5BuETl7Wip94XSlCbnyOc34PX91oEfnZ5eWpids3eXFrcJuthS0fTSXlLNaHJ1Hpf2EXZGW_thy7VX1TJxlrPv5n8v4W-y6st-JM651t93ttRb7qTIHA1e9H0_5aKze&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMtuAyEM_BefOewjaVN-JapWhPUWKwuswCSKovx7vdBTTz1WCGk8DGOPn3BJhMuUy8UTM86gF7NmVGBBP8EUdjERP0D3QhEbphgy6HP3KXX0vgSylWyKGJhCqR86BQ7NvFLAWngTZsMNB-R7TNeJMbATu4_Tm4J4D5iyo61KthRvNGMCPSpIccXaVfVyhv1K_2zj1vw4GXvdtYKrsV0NedDDq01JOcuIk3UoMsnIqeDPSwt93l1H8VwoZZ7qUv7TAv4Wta7pd8qMOx76QzceT-_jIAybLzE7KLiBPr6-AbCVqks&view=4",
+    "/northstar-erm-mandate/js/?progress=eJzNUMuOwjAM_Befc6DAbkV_Ba2qkJqNRZNUjgNaIf593UQrJE4c95DIj5mxx3c4MeF5zOUUSAQnGIQLGnAw3MEW8YlJfmDYaInECqWYYThuTGe2Zmc-Tf-lnRRCieRqu2FTFIqlUjsDHu00U8SaBBsnK1hxEeWW-DIKRvEqfOh7A-kWkbOnpUIWTleakCuX04x_89cN9On87NLStIWtu6xYJVZhN1sKmj7alpSzrjg6jwp7ml07zf2x-dqr6pk4y1jv8z-P8Z7terJXxxnXuNvu9hqL_VaZDwNX_R-_-uOs4A&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNUMuOwjAM_Befc6DAbkV_Ba2qkJqNRZNUjgNaIf593UQrJE4c95DIj_HYM3c4MeF5zOUUSAQnGIQLGnAw3MEW8YlJfmDYaInECqWYYThuTGe2Zmc-Tf-lnRRCieRqu2FTFIqljnYGPNpppog1CTZOVrDiIsot8WUUjOKV-ND3BtItImdPS4UsnK40IddZTjP-7V8v0Kf7s0tL4xO27rJiNa7EbrYUNH20KylnPXF0HhX2FLt2mvpj07VX1jNxlrH68z_NeE92texVccY17ra7vcZiv5Xmw8BV_8cv-U6s3g&view=5",
+    "/northstar-erm-mandate/js/?progress=eJzNkM9uwyAMxt_FZw75s6wbr1JNESXOsJpAZEyrqeq7zyE77bTjhJCw-fyzPz_gwoTzmMtlJRGcwM5uyWjAg32AKxISk3yBbTVF4oRSzGDPzYfGaV1LJF-ThyJFoVhqQWMgoJsWiliD1cXJCVZdRLknvo6CUYLi3t9eDaR7RM6BtirfON1oQgbbG-C0YO1qWj3dfrV_9mk72MLOX3etsivYL45WsN3zmJJy1hFHH1Bl6lG44M_PYfq8U3tlzsRZxrqU_7SAv1mta_rtMuP-bruhPzVD0540I-5TYS8GbmCH5zez6KpL&view=4",
+    "/northstar-erm-mandate/js/?progress=invalid!&view=999",
+    "/northstar-erm-mandate/js/app.js",
+    "/northstar-erm-mandate/js/content.js",
+    "/northstar-erm-mandate/js/engine.js",
+    "/northstar-erm-mandate/js/random.js",
+    "/northstar-erm-mandate/js/snapshot.js",
+    "/northstar-erm-mandate/js/style.css"
+  ],
+  "application_bytes": 133187,
+  "served_files_bytes": 134185
+}

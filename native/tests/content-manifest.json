@@ -1,0 +1,13 @@
+{
+  "source_files": {
+    "board_app.py": "d6372e7d04a42e49b64a997623ef14b76baca019aa50e044a81d46ce069d59ec",
+    "northstar/board_case.py": "73c8fd5f3347b9c124acb63a9259a0173ab7723a2e3a72a8b9db2012a59a24cc",
+    "northstar/board_logic.py": "08d702f5d2a78201775f0e0be178801178259dbd061a970ed7a675abb355b380",
+    "northstar/board_progress.py": "c34550624adcba6b9232ff6a38f1dc47e993d1a5d2ba64b6dd43148d2ba7e2c9"
+  },
+  "screen_count": 6,
+  "finding_oracles": 1936,
+  "shuffle_oracles": 102,
+  "downloads_in_original": 0,
+  "app_owned_assets_in_original": 0
+}

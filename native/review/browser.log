@@ -1,0 +1,106 @@
+PASSED: Five fresh-context cold initializations and native request audit
+PASSED: All three complete routes with wrong answers and repeats
+PASSED: All reached pages strictly read-only and unchanged progress
+PASSED: Numeric drafts, rounding, old/native bookmarks and revision
+PASSED: Independent tabs/contexts and reset
+PASSED: Invalid progress, numeric drafts and future-view rejection
+PASSED: Keyboard, touch targets, desktop and narrow layouts
+PASSED: Final branding and exact Python snapshot validation
+{
+  "checks": [
+    {
+      "name": "Five fresh-context cold initializations and native request audit",
+      "status": "passed"
+    },
+    {
+      "name": "All three complete routes with wrong answers and repeats",
+      "status": "passed"
+    },
+    {
+      "name": "All reached pages strictly read-only and unchanged progress",
+      "status": "passed"
+    },
+    {
+      "name": "Numeric drafts, rounding, old/native bookmarks and revision",
+      "status": "passed"
+    },
+    {
+      "name": "Independent tabs/contexts and reset",
+      "status": "passed"
+    },
+    {
+      "name": "Invalid progress, numeric drafts and future-view rejection",
+      "status": "passed"
+    },
+    {
+      "name": "Keyboard, touch targets, desktop and narrow layouts",
+      "status": "passed"
+    },
+    {
+      "name": "Final branding and exact Python snapshot validation",
+      "status": "passed"
+    }
+  ],
+  "errors": [],
+  "console_errors": [],
+  "external_requests": [],
+  "measurement_conditions": "Five fresh Chromium contexts, cache disabled via CDP, local loopback HTTP in saved Accounting Teaching Apps cloud environment; wall clock from navigation to ready+saved URL. No hosted-network, school-device or capacity measurement.",
+  "cold_initialization_ms": {
+    "samples": [
+      240.17,
+      130.86,
+      131.43,
+      99.92,
+      107.62
+    ],
+    "median": 130.86,
+    "min": 99.92,
+    "max": 240.17
+  },
+  "navigation_layout": {
+    "desktop": [
+      {
+        "x": 1124,
+        "y": 269.78125,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 1176,
+        "y": 269.78125,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "narrow": [
+      {
+        "x": 278,
+        "y": 241.171875,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 330,
+        "y": 241.171875,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "narrow-feedback": [
+      {
+        "x": 278,
+        "y": 241.171875,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "x": 330,
+        "y": 241.171875,
+        "width": 44,
+        "height": 44
+      }
+    ]
+  },
+  "application_bytes": 133187,
+  "served_files_bytes": 134185
+}

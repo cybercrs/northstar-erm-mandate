@@ -9,3 +9,6 @@ QA_REPORT.md
 
 browser/dist/
 browser/test-results/
+
+native/dist/
+native/tests/__pycache__/

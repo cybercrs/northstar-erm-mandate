@@ -1,0 +1,25 @@
+{
+  "files_sha256": {
+    "index.html": "e9efa4b8d476afa90003ee7ff4bbfc77b5e0f8110578aef974e2a2ef69d2d9e7",
+    "style.css": "2f7bcbe152b4344625dbfa60585d25bf7e5255eaa5e750130b61258d31905cef",
+    "content.js": "8bb660d9cf95707443bd31e254c5be9f5037df7847525264d73c8a8afd4032d2",
+    "snapshot.js": "a167c83019f7eb1955ac6f0acc06940a2be2791263b0ac5fdf57038645e8acdb",
+    "random.js": "aeb6ca482e868b33187f708209e286017db59b242f8c71fe56b7cf09b21f2e9b",
+    "engine.js": "97cee495405f63c88f2fa379ab7401678dbd88c84c4e3c2531706ee4dcd47858",
+    "app.js": "f9671d1dfbd0134e093ab1eda474534d6934591faf9a470bdf7980a41e729542"
+  },
+  "files_bytes": {
+    "index.html": 671,
+    "style.css": 7330,
+    "content.js": 89531,
+    "snapshot.js": 4994,
+    "random.js": 1961,
+    "engine.js": 12749,
+    "app.js": 15951
+  },
+  "application_bytes": 133187,
+  "runtime_dependencies": [],
+  "entrypoint": "index.html",
+  "canonical_directory": "js/",
+  "teaching_source": "11d3064dd429c0f2cf4c6a7255c3eaf61cd75dc5"
+}
