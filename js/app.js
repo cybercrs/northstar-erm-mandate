@@ -110,7 +110,14 @@ root.addEventListener('change',event=>{
   else if(element.dataset.choice)dispatch(()=>lesson.choose(element.dataset.choice,Number(element.value)));
   else if(element.dataset.citation!==undefined) {const id=Number(element.dataset.citation),checked=element.checked;dispatch(()=>lesson.choose('citations',checked?[...lesson.state.c.citations,id]:lesson.state.c.citations.filter(i=>i!==id)));}
 });
-root.addEventListener('input',event=>{if(event.target.id==='network-result'){const raw=event.target.value;dispatch(()=>lesson.numeric(raw));}});
+root.addEventListener('input',event=>{
+  if(event.target.id==='network-result') {
+    const raw=event.target.value;
+    // The numeric control never retains arbitrary text or a stale accepted value.
+    const accepted=/^[0-9eE+\-.\s]*$/.test(raw)?raw:'';
+    dispatch(()=>lesson.numeric(accepted));
+  }
+});
 root.addEventListener('keydown',event=>{if(event.target.id==='network-result'&&['ArrowUp','ArrowDown'].includes(event.key)){event.preventDefault();nudge(event.key==='ArrowUp'?1:-1);}});
 function nudge(direction) {dispatch(()=>lesson.numeric((Math.min(1000,Math.max(0,(lesson.state.c.network_tenths===-1?0:lesson.state.c.network_tenths)+direction))/10).toFixed(1)));}
 root.addEventListener('click',event=>{

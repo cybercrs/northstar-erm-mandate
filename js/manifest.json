@@ -6,7 +6,7 @@
     "snapshot.js": "a167c83019f7eb1955ac6f0acc06940a2be2791263b0ac5fdf57038645e8acdb",
     "random.js": "aeb6ca482e868b33187f708209e286017db59b242f8c71fe56b7cf09b21f2e9b",
     "engine.js": "97cee495405f63c88f2fa379ab7401678dbd88c84c4e3c2531706ee4dcd47858",
-    "app.js": "f9671d1dfbd0134e093ab1eda474534d6934591faf9a470bdf7980a41e729542"
+    "app.js": "92be0509acb776d823d6d50c17ddd44ee6889529ca22fee1d2bcee7d3ddde969"
   },
   "files_bytes": {
     "index.html": 671,
@@ -15,9 +15,9 @@
     "snapshot.js": 4994,
     "random.js": 1961,
     "engine.js": 12749,
-    "app.js": 15951
+    "app.js": 16113
   },
-  "application_bytes": 133187,
+  "application_bytes": 133349,
   "runtime_dependencies": [],
   "entrypoint": "index.html",
   "canonical_directory": "js/",
