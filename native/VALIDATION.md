@@ -23,11 +23,11 @@ The content export records the source hashes and original UI assets/download cou
 
 Keyboard focus, Tab/Enter navigation, tooltips, native disclosure controls, 44×44-pixel arrow targets, and desktop/390-pixel layouts are checked. No page errors, console errors, external asset requests, Python/Wasm package requests or server execution requests occurred. The title stays “Northstar Cold Chain | The ERM Mandate”; rendered variants and the complete generated language/metadata have no provisional app branding.
 
-Early harness assertions needed to include a disabled reset inside a closed disclosure and to inspect status text within its verdict container. The application displayed the expected read-only and self-review behavior; these locator assumptions were corrected. Final passing evidence is retained.
+Early harness assertions needed to include a disabled reset inside a closed disclosure and to inspect status text within its verdict container. The application displayed the expected read-only and self-review behavior; these locator assumptions were corrected. An additional check found a numeric-control edge case where nonnumeric text could leave the previous accepted value available. The native input now clears rejected text and invalidates that numeric answer; explicit nonnumeric/out-of-range browser checks pass. Final passing evidence is retained.
 
 ## Measurement conditions and limits
 
-The build manifest measures 133,187 uncompressed bytes across seven application assets; the directory including its hash manifest totals 134,185 bytes. Measurements use exact local file sizes, with no HTTP compression. Review artifacts, Node/Python tooling and independent oracle fixtures are excluded from the student bundle.
+The build manifest measures 133,349 uncompressed bytes across seven application assets; the directory including its hash manifest totals 134,347 bytes. Measurements use exact local file sizes, with no HTTP compression. Review artifacts, Node/Python tooling and independent oracle fixtures are excluded from the student bundle.
 
 Cold initialization measures wall time from navigation to rendered app plus restorable saved URL in five separate Chromium contexts. Browser cache is disabled through CDP; files are served by a local loopback HTTP server in the saved cloud environment. Samples/median/range are recorded in the final browser result. They are not hosted network, bandwidth, device-fleet or class-capacity measurements and promise no real-world speed. No new central saving/service is introduced.
 

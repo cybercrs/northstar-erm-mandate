@@ -129,7 +129,12 @@ def main():
                 bookmark=page.url;page.reload();loaded(page);assert state(page,4)==draft;expect(page.locator('#network-result')).to_have_value('97.')
                 number=page.locator('#network-result');number.fill('97.75');state(page,predicate=lambda s:s['c']['network_tenths']==978);number.fill('98.6');state(page,predicate=lambda s:s['c']['network_tenths']==986)
                 for field,value in dict(headline=0,continuity=0,work_claim=2,communication=1,authority=1,scope=0,provider=3).items():radio(page,field,value,WORK_CLAIMS[route] if field=='work_claim' else None)
-                page.locator('#citation-0').check();draft=state(page,4,predicate=lambda s:s['c']['citations']==[0])
+                page.locator('#citation-0').check();state(page,4,predicate=lambda s:s['c']['citations']==[0])
+                page.locator('#network-result').fill('bad');state(page,4,predicate=lambda s:s['c']['network_tenths']==-1)
+                expect(page.locator('#network-result')).to_have_value('');disabled(page,'Submit briefing for feedback')
+                page.locator('#network-result').fill('101');state(page,4,predicate=lambda s:s['c']['network_tenths']==-1)
+                disabled(page,'Submit briefing for feedback');expect(page.get_by_text('Enter a percentage from 0 to 100.',exact=True)).to_be_visible()
+                page.locator('#network-result').fill('98.6');draft=state(page,4,predicate=lambda s:s['c']['network_tenths']==986)
                 click(page,'Back');assert state(page,3)==draft;readonly(page);review_bookmark=page.url;page.reload();loaded(page);assert state(page,3)==draft
                 click(page,'Forward');assert state(page,4)==draft;expect(page.locator('#network-result')).to_have_value('98.6')
                 save_variant(page,f'brief-draft-{route}');click(page,'Submit briefing for feedback');wrong=state(page,5);assert wrong['first_brief']['network_tenths']==986

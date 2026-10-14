@@ -1,9 +1,9 @@
-✔ 1,936 independent Python finding, consequence, product, capacity and brief outcomes (38.184014ms)
-✔ 102 exact Python string-seeded shuffle orders including zero and maximum seeds (28.613188ms)
-✔ Python ties-to-even numeric outcomes and malformed numeric drafts (0.688343ms)
-✔ original compressed bookmarks, native round trips and legacy review restoration (26.19215ms)
-✔ snapshot rejects unknown fields, duplicate keys, floats, booleans, skips, bombs and trailing data (38.731722ms)
-✔ full guarded routes preserve first submission, optional revision, drafts and reset (30.010767ms)
+✔ 1,936 independent Python finding, consequence, product, capacity and brief outcomes (26.68113ms)
+✔ 102 exact Python string-seeded shuffle orders including zero and maximum seeds (22.223814ms)
+✔ Python ties-to-even numeric outcomes and malformed numeric drafts (0.47766ms)
+✔ original compressed bookmarks, native round trips and legacy review restoration (19.699072ms)
+✔ snapshot rejects unknown fields, duplicate keys, floats, booleans, skips, bombs and trailing data (28.785107ms)
+✔ full guarded routes preserve first submission, optional revision, drafts and reset (20.760149ms)
 ℹ tests 6
 ℹ suites 0
 ℹ pass 6
@@ -11,4 +11,4 @@
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 283.49661
+ℹ duration_ms 205.7963

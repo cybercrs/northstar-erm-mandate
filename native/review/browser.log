@@ -47,15 +47,15 @@ PASSED: Final branding and exact Python snapshot validation
   "measurement_conditions": "Five fresh Chromium contexts, cache disabled via CDP, local loopback HTTP in saved Accounting Teaching Apps cloud environment; wall clock from navigation to ready+saved URL. No hosted-network, school-device or capacity measurement.",
   "cold_initialization_ms": {
     "samples": [
-      240.17,
-      130.86,
-      131.43,
-      99.92,
-      107.62
+      182.31,
+      144.69,
+      133.0,
+      134.17,
+      110.6
     ],
-    "median": 130.86,
-    "min": 99.92,
-    "max": 240.17
+    "median": 134.17,
+    "min": 110.6,
+    "max": 182.31
   },
   "navigation_layout": {
     "desktop": [
@@ -101,6 +101,6 @@ PASSED: Final branding and exact Python snapshot validation
       }
     ]
   },
-  "application_bytes": 133187,
-  "served_files_bytes": 134185
+  "application_bytes": 133349,
+  "served_files_bytes": 134347
 }
